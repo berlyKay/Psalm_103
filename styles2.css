@@ -1,0 +1,56 @@
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    background-color: rgb(212, 179, 242);
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 auto;
+    width: 70%;
+    /* background-color: aqua; */
+    padding: 25px;
+    border: 2px solid black;}
+
+.row {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-start;
+    font-size: 25px;
+    margin-top: 10px;  /* Adjust as needed */
+    margin-bottom: 5px;  /* Adjust as needed */
+}
+
+.date {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-start;
+    font-size: 15px;
+    margin-top: 5px;  /* Adjust as needed */
+    margin-bottom: 10px;  /* Adjust as needed */
+}
+
+p {
+    line-height: 1.5;  /* Adjust as needed for paragraph spacing */
+}
+
+.challenge, .verse, .ponderings, .more, .extra, .blb, .chapter, .comments, .links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;  /* Changed to column for better text alignment */
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin-bottom: 15px;  /* Consistent spacing between sections */
+}
+
